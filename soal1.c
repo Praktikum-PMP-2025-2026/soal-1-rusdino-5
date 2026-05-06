@@ -1,3 +1,17 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
+ *   Modul               : 4
+ *   Hari dan Tanggal    : Rabu, 6 Mei 2026
+ *   Nama (NIM)          : Rusydi Noor Abdurrahman (13224030)
+ *   Nama File           : soal1.c
+ *   Deskripsi           : Deskripsi Soal
+Sebuah terminal medis orbit menangani pasien berdasarkan urutan kedatangan. Setiap pasien membutuhkan durasi pelayanan yang berbeda. Untuk mengevaluasi efisiensi pelayanan, manajemen terminal ingin mengetahui urutan pasien yang diproses serta total waktu tunggu seluruh antrean. Anda diminta mensimulasikan antrean tersebut sesuai aturan layanan yang berlaku.
+Simulasikan antrean pasien dan hitung total waktu tunggu.
+Kondisi/Aturan
+1. Pasien diproses sesuai urutan datang
+2. Waktu tunggu pasien pertama = 0
+3. Waktu tunggu pasien berikutnya = total durasi semua pasien sebelumnya
+4. Cetak urutan ID dan total waktu tunggu seluruh pasien
+**/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
