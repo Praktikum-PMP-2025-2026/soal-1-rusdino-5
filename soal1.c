@@ -19,7 +19,7 @@ void TampilkanWait(Pasien* x, int N){
 
 void TampilkanUrut(Pasien* x, int N){
     for(int i =0; i< N; i++){
-        printf("%s ", x[i].id);
+        printf(" %s", x[i].id);
     }
 }
 
@@ -42,9 +42,9 @@ int main(){
         }
 
     }
-    printf("ORDER: ");
+    printf("\nORDER");
     TampilkanUrut(x, N);
-    printf("\nWAIT: ");
+    printf("\nWAIT ");
     TampilkanWait(x, N);
     
 }
